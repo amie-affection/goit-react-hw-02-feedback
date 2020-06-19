@@ -1,0 +1,7 @@
+#root {
+    width: 200px;
+}
+
+.btn {
+    display: flex;
+}
