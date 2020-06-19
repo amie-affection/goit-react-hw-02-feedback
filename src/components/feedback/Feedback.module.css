@@ -1,7 +1,7 @@
-#root {
-    width: 200px;
-}
-
 .btn {
     display: flex;
+}
+
+.button {
+    margin-right: 15px;
 }

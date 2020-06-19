@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Statistic from '../statistic/Statistic';
-import styles from './Feedback.module.css';
+import Statistic from "../statistic/Statistic";
+import styles from "./Feedback.module.css";
 
 class Feedback extends Component {
   state = {
@@ -14,17 +14,32 @@ class Feedback extends Component {
       <>
         <h2>Please leave feedback</h2>
         <div className={styles.btn}>
-          <button name="good" type="button" onClick={this.good}>
+          <button
+            className={styles.button}
+            name="good"
+            type="button"
+            onClick={this.good}
+          >
             Good
           </button>
-          <button name="neutral" type="button" onClick={this.neutral}>
+          <button
+            className={styles.button}
+            name="neutral"
+            type="button"
+            onClick={this.neutral}
+          >
             Neutral
           </button>
-          <button name="bad" type="button" onClick={this.bad}>
+          <button
+            className={styles.button}
+            name="bad"
+            type="button"
+            onClick={this.bad}
+          >
             Bad
           </button>
         </div>
-        <Statistic/>
+        <Statistic />
       </>
     );
   }

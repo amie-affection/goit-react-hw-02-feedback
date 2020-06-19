@@ -11,9 +11,9 @@ class Statistic extends Component {
     return (
       <>
         <h2>Statistic:</h2>
-        <p>Good:</p>
-        <p>Neutral:</p>
-        <p>Bad:</p>
+        <p>Good: <span>{this.state.good}</span></p>
+        <p>Neutral: <span>{this.state.neutral}</span></p>
+        <p>Bad: <span>{this.state.bad}</span></p>
       </>
     );
   }
