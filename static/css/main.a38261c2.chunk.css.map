@@ -1,0 +1,1 @@
+{"version":3,"sources":["FeedbackOptions.module.css"],"names":[],"mappings":"AAAA,4BACI,YACJ,CAEA,+BACI,iBAAkB,CAClB,WACJ","file":"main.a38261c2.chunk.css","sourcesContent":[".btn {\r\n    display: flex;\r\n}\r\n\r\n.button {\r\n    margin-right: 15px;\r\n    height: 30px;\r\n}"]}
